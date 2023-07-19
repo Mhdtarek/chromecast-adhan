@@ -5,7 +5,9 @@ import schedule
 import sys 
 import time 
 import zeroconf 
-from pychromecast import quick_play 
+from pychromecast import quick_play
+from pychromecast import *
+import pychromecast
 from rich.console import Console 
 from rich.table import Table 
 CAST_NAME = "kok" 
